@@ -2,7 +2,6 @@
 Jupyter ToolKit for : 
 Laser Power density(PowerDensity or IMax or Imax, GW/cm2) calculation from Beam parameters Energy (E - J), pulse duration (Tpul or Tau - ns) and spot diameter (d - mm), possible neutral density (D0)
 Related Plasma pressure profile (GPa)
-From Paper : 
 
 See reference for limits and validation 
 # Bibtex - Citation - reference. 
@@ -15,4 +14,4 @@ def PowerDensityPressure(IMax,Np) gives maximum pressure curve in GPA up to IMax
 def PressureFunction(Time,Imax,Tpul,T0,Ti) gives Pressure at time (Time - ns) - T0 is rise time 
 def PressureProfile(I0,Tpul,T0,Np,FileName) give Pressure (Time) profile saved in FileName with Np increment time. 
 
-@author: Scius_Bertrand, Laurent Berthe from
+@author: Marine Scius_Bertrand, Laurent Berthe 
